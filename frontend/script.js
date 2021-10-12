@@ -3,7 +3,7 @@
 console.log('Script Running....');
 
 
-const myUserToken = 'IGQVJYMmpfWDU4M3ZASdXlONk1BaFFNcDB1QXBjUk9wd1doSlV6anpFbE54VFhiQ2lLQVFpSHlZAU211MUJXNzJMbVJkUzd3YUFGOG90TG5kMEd3ejNWRm91ekpJMlZABQUlRREpNajJ2N1VoRU1CbWNmSQZDZD'
+const myUserToken = 'yourUserToken'
 let fetchRes = fetch(`https://graph.instagram.com/me?fields=id,username&access_token=${myUserToken}`);
 
 fetchRes.then(
